@@ -178,7 +178,7 @@ const Portfolio = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/ResumeNessrineKADDOUR.pdf"
+                href="/cv.pdf"
                 download="ResumeNessrineKADDOUR.pdf" // ✅ triggers download
                 className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 via-pink-600 to-rose-600 text-white rounded-lg text-sm font-medium shadow-lg hover:shadow-purple-500/50 transition-shadow"
               >
@@ -216,7 +216,7 @@ const Portfolio = () => {
               <a
                 href="/ResumeNessrineKADDOUR.pdf"
                 className="flex items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 via-pink-600 to-rose-600 text-white rounded-lg"
-                download="ResumeNessrineKADDOUR.pdf"
+                download="cv.pdf"
               >
                 <Download size={16} />
                 Resume

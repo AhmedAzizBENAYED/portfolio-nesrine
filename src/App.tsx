@@ -1,7 +1,7 @@
 import  { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Menu, X, Download, Mail, Code, Wrench, Briefcase, GraduationCap, Heart, MapPin, Calendar } from 'lucide-react';
-//import ResumeNesrineKADDOUR from "../public/ResumeNessrineKADDOUR .pdf";
+import { Menu, X, Download, Mail, Code, Wrench, Briefcase, GraduationCap, Heart, MapPin, Calendar} from 'lucide-react';
+import { SiLinkedin } from 'react-icons/si';
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
@@ -600,8 +600,8 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-4 bg-white text-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-shadow"
               >
-                <Linkedin size={24} className="text-purple-600" />
-                <div className="text-left">
+              <SiLinkedin size={24} className="text-purple-600" />
+                  <div className="text-left">
                   <p className="text-sm text-gray-600">LinkedIn</p>
                   <p className="font-medium">Nesrine KADDOUR</p>
                 </div>

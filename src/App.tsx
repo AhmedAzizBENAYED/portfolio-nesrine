@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Menu, X, Download, Mail, Linkedin, Github, ExternalLink, Code, Wrench, Briefcase, GraduationCap, Heart, MapPin, Calendar } from 'lucide-react';
+import { Menu, X, Download, Mail, Code, Wrench, Briefcase, GraduationCap, Heart, MapPin, Calendar } from 'lucide-react';
 //import ResumeNesrineKADDOUR from "../public/ResumeNessrineKADDOUR .pdf";
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +26,7 @@ const Portfolio = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId:string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
